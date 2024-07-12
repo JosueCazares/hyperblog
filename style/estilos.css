@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body
 {
     text-align: center;
@@ -12,9 +18,18 @@ body
 .container{
     height: 50%;
     width: 50%;
-    margin: 10px;
-    background-color: grey;
-    text-align: center;
     display: block;
     justify-content: center;
+    text-align: center;
+    border: solid 1px black;
+    font-size:2rem;
+    color: #888;
+}
+.cabecera{
+    background-color: #111;
+    height: auto;
+    width: 100%;
+    box-shadow: 0 6px 8px rgba(1, 1, 1, 0.8); /* Borde sombreado */
+
+    
 }
