@@ -32,14 +32,22 @@ body
     background-color: #111;
     color: #fff;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 80px;
     width: 100%;
     box-shadow: 0 6px 8px rgba(1, 1, 1, 0.8); /* Borde sombreado */
+
 }
-img{
+.cabecera img{
     height: 90%;
     width:  10%;
     margin: 5px;
+    margin-right: 50px;
+}
+.cabecera h1 {
+    flex-grow: 1;
+    text-align: center; /* Centra el texto dentro del espacio que ocupa */
 }
 .footer{
     height: 80px;
