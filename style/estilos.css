@@ -18,7 +18,7 @@ body
 }
 
 .container{
-    height: 50%;
+    height: auto;
     width: 50%;
     display: block;
     justify-content: center;
@@ -26,6 +26,10 @@ body
     border: solid 1px black;
     font-size:2rem;
     color: #333;
+}
+#imgn{
+    height: 50%;
+    width:  50%;
 }
 .cabecera{
     padding: 1px;
